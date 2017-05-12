@@ -13,6 +13,8 @@
 		440C80A81EC518B20064911A /* BballShoeCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 440C80A61EC518B20064911A /* BballShoeCollector.xcdatamodeld */; };
 		440C80AA1EC518B20064911A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440C80A91EC518B20064911A /* Assets.xcassets */; };
 		440C80AD1EC518B20064911A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440C80AB1EC518B20064911A /* LaunchScreen.storyboard */; };
+		440C80B51EC51C3C0064911A /* curry2_5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 440C80B41EC51C3C0064911A /* curry2_5.jpeg */; };
+		440C80B71EC520370064911A /* ShoeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C80B61EC520370064911A /* ShoeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		440C80A91EC518B20064911A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440C80AC1EC518B20064911A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		440C80AE1EC518B20064911A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440C80B41EC51C3C0064911A /* curry2_5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curry2_5.jpeg; sourceTree = "<group>"; };
+		440C80B61EC520370064911A /* ShoeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				440C809F1EC518B20064911A /* AppDelegate.swift */,
 				440C80A11EC518B20064911A /* ViewController.swift */,
 				440C80A31EC518B20064911A /* Main.storyboard */,
+				440C80B61EC520370064911A /* ShoeViewController.swift */,
 				440C80A91EC518B20064911A /* Assets.xcassets */,
 				440C80AB1EC518B20064911A /* LaunchScreen.storyboard */,
 				440C80AE1EC518B20064911A /* Info.plist */,
+				440C80B41EC51C3C0064911A /* curry2_5.jpeg */,
 				440C80A61EC518B20064911A /* BballShoeCollector.xcdatamodeld */,
 			);
 			path = BballShoeCollector;
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					440C809B1EC518B20064911A = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BHMLWY8X4F;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C80B51EC51C3C0064911A /* curry2_5.jpeg in Resources */,
 				440C80AD1EC518B20064911A /* LaunchScreen.storyboard in Resources */,
 				440C80AA1EC518B20064911A /* Assets.xcassets in Resources */,
 				440C80A51EC518B20064911A /* Main.storyboard in Resources */,
@@ -140,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440C80A21EC518B20064911A /* ViewController.swift in Sources */,
+				440C80B71EC520370064911A /* ShoeViewController.swift in Sources */,
 				440C80A01EC518B20064911A /* AppDelegate.swift in Sources */,
 				440C80A81EC518B20064911A /* BballShoeCollector.xcdatamodeld in Sources */,
 			);
@@ -266,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BHMLWY8X4F;
 				INFOPLIST_FILE = BballShoeCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winstonlan.BballShoeCollector;
@@ -278,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BHMLWY8X4F;
 				INFOPLIST_FILE = BballShoeCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.winstonlan.BballShoeCollector;
